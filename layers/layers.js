@@ -24,7 +24,7 @@ lyr_cb_2018_us_state_500k_0.setVisible(true);
 var layersList = [lyr_cb_2018_us_state_500k_0];
 lyr_cb_2018_us_state_500k_0.set('fieldAliases', {'STATEFP': 'STATEFP', 'STATENS': 'STATENS', 'AFFGEOID': 'AFFGEOID', 'GEOID': 'GEOID', 'STUSPS': 'STUSPS', 'NAME': 'NAME', 'LSAD': 'LSAD', 'ALAND': 'ALAND', 'AWATER': 'AWATER', 'GEOIDN': 'GEOIDN', });
 lyr_cb_2018_us_state_500k_0.set('fieldImages', {'STATEFP': 'TextEdit', 'STATENS': 'TextEdit', 'AFFGEOID': 'TextEdit', 'GEOID': 'TextEdit', 'STUSPS': 'TextEdit', 'NAME': 'TextEdit', 'LSAD': 'TextEdit', 'ALAND': 'TextEdit', 'AWATER': 'TextEdit', 'GEOIDN': 'Range', });
-lyr_cb_2018_us_state_500k_0.set('fieldLabels', {'STATEFP': 'no label', 'STATENS': 'no label', 'AFFGEOID': 'no label', 'GEOID': 'no label', 'STUSPS': 'no label', 'NAME': 'inline label', 'LSAD': 'no label', 'ALAND': 'no label', 'AWATER': 'no label', 'GEOIDN': 'no label', });
+lyr_cb_2018_us_state_500k_0.set('fieldLabels', {'STATEFP': 'no label', 'STATENS': 'no label', 'AFFGEOID': 'no label', 'GEOID': 'inline label', 'STUSPS': 'no label', 'NAME': 'inline label', 'LSAD': 'inline label', 'ALAND': 'inline label', 'AWATER': 'inline label', 'GEOIDN': 'no label', });
 lyr_cb_2018_us_state_500k_0.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
