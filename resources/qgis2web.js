@@ -111,7 +111,7 @@ layerSwitcher.showPanel();
 
 
     var searchLayer = new SearchLayer({
-      layer: lyr_cb_2018_us_state_500k_0,
+      layer: lyr_CountyMapCOVID_1,
       colName: 'NAME',
       zoom: 10,
       collapsed: true,
@@ -123,7 +123,7 @@ layerSwitcher.showPanel();
     .getElementsByTagName('button')[0].className +=
     ' fa fa-binoculars';
     
-map.getView().fit([-15489235.178896, 2222164.486160, -5804995.687195, 7249994.624211], map.getSize());
+map.getView().fit([-16256416.711732, 2002822.897715, -5044909.954304, 7249994.624211], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
